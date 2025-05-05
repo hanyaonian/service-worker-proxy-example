@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview --outDir=preview",
+    "build": "tsx ./scripts/build.ts"
+  },
+  "devDependencies": {
+    "@inquirer/input": "^4.1.9",
+    "@types/node": "^22.15.3",
+    "@types/serviceworker": "^0.0.133",
+    "cross-env": "^7.0.3",
+    "tsx": "^4.19.4",
+    "vite": "^6.3.4",
+    "zx": "^8.5.3"
+  }
+}

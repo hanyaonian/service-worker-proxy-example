@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "strict": true,
+    "target": "ES5",
+    "module": "ESNext",
+    "lib": ["webworker", "DOM"]
+  },
+
+  "exclude": ["dist"],
+  "include": ["src/*.ts"]
+}
