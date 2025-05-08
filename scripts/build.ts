@@ -6,6 +6,7 @@ import { $ } from "zx";
 import input from "@inquirer/input";
 
 (async () => {
+  // devops inject
   const version = await input({
     message: "Version",
   });
