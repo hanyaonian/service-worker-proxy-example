@@ -1,8 +1,8 @@
-# 通过 Service Worker 实现 Html proxy
+# Service Worker Html proxy 最小实践
 
 在常规的 SPA 应用中(通常由一个 html 文件入口指定各类静态资源的引用), 通过 Service Worker 改写 html 入口文件可以通过将 html 入口转发实现纯前端的资源代理, 这可以实现:
 
-1. A/B test? 可以根据一些字段(url query, cookie)来进行用户灰度测试
+1. A/B test 可以根据一些字段(url query)来进行用户灰度测试
 2. 测试环境多版本同路径复用, 如同一个路径不同 feature 的测试
 
 通过 build 命令, 构建出两个版本的 SPA 应用代码。
